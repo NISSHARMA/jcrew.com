@@ -1,0 +1,65 @@
+.topimage img {
+    margin: auto;
+}
+
+.subsection {
+    width: 32%;
+    height: 400px;
+    margin: auto;
+
+}
+
+.catagorydiv {
+    height: 400px;
+    width: 80%;
+    margin: auto;
+    margin-top: 25px;
+    display: flex;
+}
+
+.morestoriesdiv {
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+
+}
+
+.morestoriesdata {
+    width: 80%;
+  
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+}
+.morestoriessubdata{
+    width:25%;
+}
+.youwilalsolovedata{
+    width: 85%;
+ 
+    margin: auto;
+    display: flex;
+}
+.youwilalsoloveimages{
+    width: 16.66%;
+}
+.slider{
+    width: 80%;
+    border: 1px solid red;
+    margin: auto;
+    height: 250px;
+}
+.moreyouneed{
+    width: 95%;
+    height: 360px;
+    margin: auto;
+    display: flex;
+}
+.moreyouneedimages{
+    width: 16.66%;
+    height: 200px;
+    margin: auto;
+    margin: auto;
+    font-weight: bold
+
+}
