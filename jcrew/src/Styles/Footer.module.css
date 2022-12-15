@@ -1,0 +1,51 @@
+.mainfooterdiv{
+    width: 80%;
+    height: 400px;
+    margin: auto;
+    margin-bottom: 60px;
+}
+.contactinfo{
+    width: 40%;
+    height: 30px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: bold;
+}
+.footersecnddiv{
+    width: 50%;
+    height: 300px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+.footersecnddivinfo{
+    width:30%;
+    height:300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.footerrightdiv{
+width: 40%;
+height: 200px;
+display: flex;
+margin-top: 20px;
+flex-direction: column;
+align-items: flex-start;
+}
+.sociallogos{
+    width: 20%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footerlogo{
+    display: flex;
+    
+    margin-left: 85%;
+    margin-top: -10%;
+}
