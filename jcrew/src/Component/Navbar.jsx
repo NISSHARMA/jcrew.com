@@ -10,6 +10,7 @@ import {
     useColorModeValue
 } from "@chakra-ui/react"
 import { ChevronDownIcon, ChevronUpIcon, SearchIcon } from '@chakra-ui/icons'
+import {Link} from "react-router-dom"
 
 function Navbar() {
     const { isOpen, onOpen, onClose } = useDisclosure()
@@ -19,7 +20,7 @@ function Navbar() {
 
 
                 <div >
-                    <img src="Fashion.jpg" className={styles.navlogo} alt="" />
+                    <img src="../Fashion.jpg" className={styles.navlogo} alt="" />
 
                     <div className={styles.firstmenu}>
                         <Menu >
@@ -45,8 +46,9 @@ function Navbar() {
                                 New
                             </MenuButton>
                             <MenuList style={{ display: "flex" }}>
+                            <b> <h5 > Shop New Arrivals</h5></b>
                                 <div>
-                                    <b> <h5 > Shop New Arrivals</h5></b>
+                                    
                                     <MenuItem>For Women</MenuItem>
                                     <MenuItem>For Men</MenuItem>
                                     <MenuItem>For Girls</MenuItem>
@@ -133,7 +135,9 @@ function Navbar() {
                                 <div style={{ marginLeft: "10px" }}>
 
                                     <b><h5 >Clothing</h5></b>
+                                    <Link to="/women">
                                     <MenuItem className={styles.MenuItem}> All Clothing</MenuItem>
+                                    </Link>
                                     <MenuItem className={styles.MenuItem}>Sweaters</MenuItem>
                                     <MenuItem className={styles.MenuItem}> Shirts & Tops</MenuItem>
                                     <MenuItem className={styles.MenuItem}>T-Shirts & Tank Tops</MenuItem>

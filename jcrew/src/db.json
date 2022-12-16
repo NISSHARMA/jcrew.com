@@ -1,0 +1,230 @@
+{
+	"arrayOfProducts": [
+		{
+            "id":1,
+			"imgUrl": "https://guesseu.scene7.com/is/image/GuessEU/M63H24W7JF0-L302-ALTGHOST?wid=1500&fmt=jpeg&qlt=80&op_sharpen=0&op_usm=1.0,1.0,5,0&iccEmbed=0",
+			"name": "CHECK PRINT SHIRT",
+			"price": 110,
+            "catagory":"SHIRT"
+		},
+		{
+            "id":2,
+			"imgUrl": "https://guesseu.scene7.com/is/image/GuessEU/FLGLO4FAL12-BEIBR?wid=700&amp;fmt=jpeg&amp;qlt=80&amp;op_sharpen=0&amp;op_usm=1.0,1.0,5,0&amp;iccEmbed=0",
+			"name": "GLORIA HIGH LOGO SNEAKER",
+			"price": 91,
+            "catagory":"SNEAKER"
+		},
+		{
+            "id":3,
+			"imgUrl": "https://guesseu.scene7.com/is/image/GuessEU/HWVG6216060-TAN?wid=700&amp;fmt=jpeg&amp;qlt=80&amp;op_sharpen=0&amp;op_usm=1.0,1.0,5,0&amp;iccEmbed=0",
+			"name": "CATE RIGID BAG",
+			"price": 94.5,
+            "catagory":"BAG"
+		},
+		{
+            "id":4,
+			"imgUrl": "http://guesseu.scene7.com/is/image/GuessEU/WC0001FMSWC-G5?wid=520&fmt=jpeg&qlt=80&op_sharpen=0&op_usm=1.0,1.0,5,0&iccEmbed=0",
+			"name": "GUESS CONNECT WATCH",
+			"price": 438.9,
+            "catagory":"WATCH"
+
+		},
+		{
+            "id":5,
+			"imgUrl": "https://guesseu.scene7.com/is/image/GuessEU/AW6308VIS03-SAP?wid=700&amp;fmt=jpeg&amp;qlt=80&amp;op_sharpen=0&amp;op_usm=1.0,1.0,5,0&amp;iccEmbed=0",
+			"name": "'70s RETRO GLAM KEFIAH",
+			"price": 20,
+            "catagory":"SHIRT"
+		},
+        {
+            "id":6,
+			"imgUrl": "https://www.jcrew.com/s7-img-facade/AW770_PP2008?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=480&hei=480",
+			"name": "Vintage cotton crewneck T-shirt",
+			"price": 4769,
+            "catagory":"T-shirt"
+		},
+        {
+            "id":7,
+			"imgUrl": "https://www.jcrew.com/s7-img-facade/BK251_BK0001?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=480&hei=480",
+			"name": "Four-season Pants",
+			"price": 4769,
+            "catagory":"Pants"
+		},
+        {
+            "id":8,
+			"imgUrl": "https://www.jcrew.com/s7-img-facade/BL022_RD5745?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=480&hei=480",
+			"name": "Trunkneck",
+			"price": 3769,
+            "catagory":"T-shirt"
+		},
+        {
+            "id":9,
+			"imgUrl": "https://www.jcrew.com/s7-img-facade/BM202_BL7755?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=480&hei=480",
+			"name": "Crewneck Tshirt",
+			"price": 8769,
+            "catagory":"T-shirt"
+		},
+        {
+            "id":10,
+			"imgUrl": "https://www.jcrew.com/s7-img-facade/BN102_YD2188?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=480&hei=480",
+			"name": "Stewart Tertan",
+			"price": 2206,
+            "catagory":"Dresses & Jumpsuits"
+		},
+        {
+            "id":11,
+			"imgUrl": "https://www.jcrew.com/s7-img-facade/BN122_BK0001?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=480&hei=480",
+			"name": "Chinon wrap dress",
+			"price": 2225,
+            "catagory":"Dresses & Jumpsuits"
+		},
+        {
+            "id":12,
+			"imgUrl": "https://www.jcrew.com/s7-img-facade/BN149_PT2456?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=480&hei=480",
+			"name": "Midnight Rose",
+			"price": 9607,
+            "catagory":"Dresses & Jumpsuits"
+		},
+        {
+            "id":13,
+			"imgUrl": "https://www.jcrew.com/s7-img-facade/BN150_WQ4254?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=480&hei=480",
+			"name": "Stewart Tertan",
+			"price": 13997,
+            "catagory":"Dresses & Jumpsuits"
+		},
+        {
+            "id":14,
+			"imgUrl": "https://www.jcrew.com/s7-img-facade/BN646_GR6581?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=480&hei=480",
+			"name": "Silk-velwet dress",
+			"price": 49760,
+            "catagory":"Dresses & Jumpsuits"
+		},
+        {
+            "id":15,
+			"imgUrl": "https://www.jcrew.com/s7-img-facade/BM875_BK0001?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=480&hei=480",
+			"name": "Italian Velvet",
+			"price": 25760,
+            "catagory":"Dresses & Jumpsuits"
+		},
+        {
+            "id":16,
+			"imgUrl": "https://www.jcrew.com/s7-img-facade/BM973_GR7081?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=480&hei=480",
+			"name": "Trim-shift Dress",
+			"price": 25760,
+            "catagory":"Dresses & Jumpsuits"
+		},
+        {
+            "id":17,
+			"imgUrl": "https://www.jcrew.com/s7-img-facade/BN189_BL8133?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=480&hei=480",
+			"name": "Strech Velvet",
+			"price": 45760,
+            "catagory":"Blazers"
+		},
+        {
+            "id":18,
+			"imgUrl": "https://www.jcrew.com/s7-img-facade/BM555_NA6434?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=480&hei=480",
+			"name": "Italian Wool",
+			"price": 50860,
+            "catagory":"Blazers"
+		},
+        {
+            "id":19,
+			"imgUrl": "https://www.jcrew.com/s7-img-facade/BM557_YD2455?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=480&hei=480",
+			"name": "Plaied Wool",
+			"price": 36214,
+            "catagory":"Blazers"
+		},
+        {
+            "id":20,
+			"imgUrl": "https://www.jcrew.com/s7-img-facade/BM560_BK0001?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=480&hei=480",
+			"name": "Sequin Tweed",
+			"price": 41192,
+            "catagory":"Blazers"
+		},
+        {
+            "id":21,
+			"imgUrl": "https://www.jcrew.com/s7-img-facade/BM561_RD6052?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=480&hei=480",
+			"name": "Boiled Wool",
+			"price": 38477,
+            "catagory":"Blazers"
+		},
+        {
+            "id":22,
+			"imgUrl": "https://www.jcrew.com/s7-img-facade/BM561_RD6052?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=480&hei=480",
+			"name": "Boiled Wool",
+			"price": 38477,
+            "catagory":"Blazers"
+		},
+        {
+            "id":23,
+			"imgUrl": "https://www.jcrew.com/s7-img-facade/BD006_GR6460?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=480&hei=480",
+			"name": "Stretch Velvet",
+			"price": 45337,
+            "catagory":"Blazers"
+		},
+        {
+            "id":24,
+			"imgUrl": "https://www.jcrew.com/s7-img-facade/BD006_PK6077?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=480&hei=480",
+			"name": "Long Lady Jacket",
+			"price": 45337,
+            "catagory":"Blazers"
+		},
+        {
+            "id":25,
+			"imgUrl": "https://www.jcrew.com/s7-img-facade/BM564_BK0001?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=480&hei=480",
+			"name": "Long Lady Jacket",
+			"price": 48105,
+            "catagory":"Blazers"
+		},
+        {
+            "id":26,
+			"imgUrl": "https://www.jcrew.com/s7-img-facade/BM565_YD2191?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=480&hei=480",
+			"name": "Stewat Tertan Jacket",
+			"price": 48105,
+            "catagory":"Blazers"
+		},
+        {
+            "id":27,
+			"imgUrl": "https://www.jcrew.com/s7-img-facade/BJ999_BK0001?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=480&hei=480",
+			"name": "Devon Blazer In Point",
+			"price": 4700,
+            "catagory":"Blazers"
+		},
+        {
+            "id":28,
+			"imgUrl": "https://www.jcrew.com/s7-img-facade/BD355_DM2763?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=480&hei=480",
+			"name": "Devon Blazer Pants",
+			"price": 14098,
+            "catagory":"Pants"
+		},
+        {
+            "id":29,
+			"imgUrl": "https://www.jcrew.com/s7-img-facade/BM820_DM2763?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=480&hei=480",
+			"name": "Rinse Wash",
+			"price": 20458,
+            "catagory":"Pants"
+		},
+        {
+            "id":30,
+			"imgUrl": "https://www.jcrew.com/s7-img-facade/BN104_DM2763?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=480&hei=480",
+			"name": " Skinny Rinse Wash",
+			"price": 21840,
+            "catagory":"Pants"
+		},
+        {
+            "id":31,
+			"imgUrl": "https://www.jcrew.com/s7-img-facade/BN042_DM5656?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=480&hei=480",
+			"name": " Brushed back jeans Rinse Wash",
+			"price": 20458,
+            "catagory":"Pants"
+		},
+        {
+            "id":32,
+			"imgUrl": "https://www.jcrew.com/s7-img-facade/BA659_DM1963?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=480&hei=480",
+			"name": " Classic jeans Rinse Wash",
+			"price": 12163,
+            "catagory":"Pants"
+		}
+       
+	]
+}
