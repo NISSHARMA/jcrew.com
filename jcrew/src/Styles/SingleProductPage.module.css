@@ -1,0 +1,18 @@
+.mainproductdiv{
+    width: 70%;
+    margin: auto;
+    height: 500px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.imagediv{
+    width: 40%;
+    height: 500px;
+}
+.infodiv{
+    width: 50%;
+    height: 400px;
+}
