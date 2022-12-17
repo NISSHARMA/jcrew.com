@@ -275,7 +275,10 @@ function Navbar() {
                 <div className={styles.rightnav}>
                     <Input style={{ width: "250px" }} placeholder='Fashion Trends' />
                     <Button>Sign up</Button>
+                    <Link to="/cart">
                     <img width="50px" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHIAAAB7CAMAAACfDCSHAAAAY1BMVEX///8AAABcXFzNzc23t7eurq78/Pz09PRAQECnp6fT09MGBgazs7N3d3fe3t7i4uIQEBCcnJzCwsLs7OyJiYlpaWkgICCTk5NkZGQnJyc6OjqDg4M1NTVNTU1ubm5ISEgZGRno5KgIAAADqElEQVRoge2Z2XbqIBSGoRAoGBMZFK3j+z/l2Rsy2LSnNivouTh8F3YXXfyBPTCEkEKhUCgUCoVCoVAo/FcIW/ewF0l6OlIT8QrJ9zvJt1cIEqLoKgGSB/kazUYncIbneXOxF1qQDLMUF0uKw8ucObCmdPU2g61bLMnpTJbPSTtPcEXPiyUJOHP13nGCTk/J3IGZrA9MpNE8LpcEZ260TOgbpUqgJbC5a6RDYwWmXS6Jzqw628HY/PgkybKjzhHMpeEDSSahm3UvCTO7n0ri0HS05BWmeKFiBBz00dU8cab0OpU0w9DaTRZXEhKGURCyh/CZSuJsJuveB4tgGB5kENq5z5JiCyE9ii+vBIDcjfmNk9hOJGGyu1wEa5dDMc7mTkWqNVb5aEH3m9QIiXut0DC3MdAWYmZUnyyuJETPkGzySEqsc5thlzAYny2KxinXDgJicmPjJoGB4/a4Y2jAwZto4LRXaFnIym0mxZhvPJnnPnqHiFUwxhjE9i6ZFtOuYlXBLcYblCLxSRKS8Ran09+VjMUIrJ1pT7PuBZKkiA8RPSjehh/lwKdYFKn6uVESgMc5o5LbZd0l2SHj6j4RekkBVf/y+TdZaHf9osX6xbGXdIdu9TA5XZn8RDVjTEN8Ug+WxiSBBlZDaK2x4ZwxK5Hwq9KTLSsR9itJk1FR4AL2kEOT9Vi4xdJS/UybUY/EsvY4HkXWUTZ02E7+qJkR+YF7u5ec4AdwC/Ki43QPLmAGq8Hf0Nmn4PEJ7LGr5/L+SPKWZQt7j3okuc8fXJb/iH1xcD0Ntz4f26/JaffnuM16Qtam5eTLxRNmLD09o0oI3HJ803m3rplnDLLPzEl171bvp9xH9ZKTY0d3SNo/xZfX2Pf7pLU7JGXc3A0IomEzRw9fVs04zKzbnlGStOZovln6mT/WT1rWUrfT209x91koFAqFQqFQKBQKhcK/RYwXgOLuxOriVXa6zRYi4602dCTi24fG2a7TNp7WhZqKVA2p21q5wFlwSrWBWS9NRfjcd7UyNEfDNPfqYpWxRsEnNxosLoSyYHoTnNDwDLo1zHBuQI87+M8bedZKm7kvoiRnRgfoyqnGWyUZZ9rIiyVrRVolvAxcWUYszENzDLU9ytYHzRsLozPk2vBLmPvmVBpbNcwHVldWVVbCsBQPGjqvmTMVmBYeAj3gPWla1rhgebAXU61r6x3oNTNH+eugGK5GloZRikmk6y0a3V+Rvh+i9a6pi+Hu67/wByPXK3jKswkzAAAAAElFTkSuQmCC" alt="" />
+
+                    </Link>
                 </div>
 
 

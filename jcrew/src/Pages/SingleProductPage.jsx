@@ -1,14 +1,21 @@
 import { useParams, } from "react-router-dom";
-import { useState, useEffect } from "react"
+import { useState, useEffect,useContext } from "react"
 import Navbar from "../Component/Navbar";
 import Footer from "../Component/Footer";
 import styles from "../Styles/SingleProductPage.module.css"
 import { Heading, Select, Button } from "@chakra-ui/react"
+import { CartContext } from "../Context/CartContext";
+
+
 
 
 function SingleProductPage() {
+
+    const{ cart,setIsCart ,Addtocart}=useContext(CartContext)
+   // console.log(cart)
+
     const { id } = useParams();
-    console.log(id);
+    //console.log(id);
 
     const [productDetail, SetproductDetail] = useState([]);
     const [quantity, SetQuantity] = useState(1)
@@ -24,6 +31,13 @@ function SingleProductPage() {
 
     function handleQuantity(changeBy) {
         SetQuantity(quantity + changeBy)
+    }
+
+
+    function AddProducttocart(){
+       let cartdata=JSON.parse(localStorage.getItem('cartproduct'))||[]
+       cartdata.push(productDetail)
+       localStorage.setItem('cartproduct',JSON.stringify(cartdata))
     }
 
     return (
@@ -75,7 +89,8 @@ function SingleProductPage() {
                     </div>
 
                     <div style={{ marginTop: "10px", display:"block" }}>
-                        <Button style={{width:"150px"}} bg="black" h={8} colorScheme='blue'>ADD TO CART</Button><br/><br/>
+
+                        <Button style={{width:"150px"}} bg="black" h={8} colorScheme='blue' onClick={()=>AddProducttocart()}>ADD TO CART</Button><br/><br/>
                         <Button style={{width:"150px"}} bg="black" h={8} colorScheme='blue'>CHECKOUT</Button>
                     </div>
 
