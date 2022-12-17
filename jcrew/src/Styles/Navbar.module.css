@@ -3,6 +3,7 @@
     height: 80px;
     position: fixed;
     background-color: aliceblue;
+    z-index: 20000;
 }
 
 .navlogo {
@@ -58,7 +59,7 @@
     width: 100px;
     height: 80px;
     margin-top: -80px;
-    margin-left: 500px;
+    margin-left: 520px;
     display: flex;
     align-items: center;
     justify-content: center;
