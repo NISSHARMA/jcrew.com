@@ -4,6 +4,7 @@ import Navbar from "./Navbar"
 import styles from "../Styles/LandingPage.module.css"
 import Footer from "./Footer"
 import { Box, Text, Button, HStack } from '@chakra-ui/react'
+import { Link } from "react-router-dom"
 function LandingPage() {
 
   return (
@@ -13,13 +14,14 @@ function LandingPage() {
         <img width="80%" src="https://www.jcrew.com/brand_creative/homepage2022/15-Dec4/2022dec2_1213_hp_w_img0.jpg" alt="" />
         <div>
           <img width="70%" src="secondimage.png" alt="" />
-          <img width="70%" src="1stimage.png" alt="" />
+          <img width="70%" src="firstimage.png" alt="" />
         </div>
 
         <div style={{ display: "flex", width: "80%", margin: "auto" }}>
           <HStack spacing='50px' mt={10}>
             <Text fontSize='2xl'> Shop New Arrivals</Text>
 
+           <Link to="/women">
             <Button
               size='md'
               height='40px'
@@ -31,6 +33,7 @@ function LandingPage() {
             >
               Shop Women
             </Button>
+            </Link>
             <Button
               size='md'
               height='40px'

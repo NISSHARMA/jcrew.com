@@ -1,32 +1,39 @@
 import Navbar from "../Component/Navbar"
 import Footer from "../Component/Footer"
 import ProductSimple from "./CartCard";
+import { Link } from "react-router-dom"
 
-
-import * as React from 'react'
 import {
-    Box,
-    Center,
     useColorModeValue,
-    Heading,
     Text,
-    Stack,
-    Image,
-    border,
     Button
-
 } from '@chakra-ui/react';
 
 
 
-let data = JSON.parse(localStorage.getItem("cartproduct"))
+let data = JSON.parse(localStorage.getItem("cartproduct"))||[]
 
-let totalprice = data.reduce((acc, el) => {
-    return acc + el.price
-}, 0)
-//console.log(totalprice)
-//console.log(data)
+let totalprice;
+if (data == null) {
+    totalprice = 0
+} else {
+    totalprice = data.reduce((acc, el) => {
+        return acc + el.price
+    }, 0)
+}
+
+
 function Cart() {
+
+    function HandleRemove() {
+        // console.log(id)
+        console.log("invoked")
+
+    }
+
+
+
+
     return (
         <>
             <div>
@@ -42,6 +49,7 @@ function Cart() {
                         gridTemplateColumns: "repeat(3,1fr)",
 
                     }}>
+                        
                         {data.map((elem) => (
                             <ProductSimple
                                 key={elem.id}
@@ -49,15 +57,29 @@ function Cart() {
                                 catagory={elem.catagory}
                                 price={elem.price}
                                 imgUrl={elem.imgUrl}
+
                             />
-                        ))
-                        }
+                        ))}
+                        
+
+
+                        {/*<Button
+                            px={8}
+                            bg={useColorModeValue('#151f21', 'gray.900')}
+                            color={'white'}
+                            rounded={'md'}
+                             >
+                            Remove
+                        </Button>*/}
+
+
+
                     </div>
 
                     <div style={{
                         width: "20%",
                         height: "400px",
-                        marginTop:"150px"
+                        marginTop: "150px"
                     }}>
                         <b><Text fontSize='md'>Item Subtotal : {totalprice}</Text></b>
                         <br />
@@ -65,21 +87,24 @@ function Cart() {
                         <br />
                         <b><Text fontSize='s'>Total Item : {data.length}</Text></b>
                         <br />
-                        
-                        <Button
-                            px={8}
-                            bg={useColorModeValue('#151f21', 'gray.900')}
-                            color={'white'}
-                            rounded={'md'}
-                        >
-                            CHECKOUT
-                        </Button>
+
+                        <Link to="checkout">
+                            <Button
+                                px={8}
+                                bg={useColorModeValue('#151f21', 'gray.900')}
+                                color={'white'}
+                                rounded={'md'}
+                            >
+                                CHECKOUT
+                            </Button>
+                        </Link>
+
                         <br />
-                        <div style={{width:"80%",margin:"auto"}}>
-                        <Text fontSize='xs'>By clicking ‘Check Out Now’, you will be redirected to the ESW checkout page where payment will be taken and your order fulfilled by ESW, J.Crew's preferred partner for international sales.</Text>
-                             
+                        <div style={{ width: "80%", margin: "auto" }}>
+                            <Text fontSize='xs'>By clicking ‘Check Out Now’, you will be redirected to the ESW checkout page where payment will be taken and your order fulfilled by ESW, J.Crew's preferred partner for international sales.</Text>
+
                         </div>
-                    
+
 
 
                     </div>
