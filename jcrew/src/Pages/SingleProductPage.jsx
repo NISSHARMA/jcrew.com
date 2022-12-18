@@ -91,11 +91,12 @@ function SingleProductPage() {
                     <div style={{ marginTop: "10px", display:"block" }}>
 
                         <Button style={{width:"150px"}} bg="black" h={8} colorScheme='blue' onClick={()=>AddProducttocart()}>ADD TO CART</Button><br/><br/>
-                        <Button style={{width:"150px"}} bg="black" h={8} colorScheme='blue'>CHECKOUT</Button>
+                        {/*<Button style={{width:"150px"}} bg="black" h={8} colorScheme='blue'>CHECKOUT</Button>*/}
                     </div>
 
                 </div>
 
+               
 
 
 
