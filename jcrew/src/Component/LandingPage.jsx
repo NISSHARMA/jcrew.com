@@ -17,8 +17,8 @@ function LandingPage() {
           <img width="70%" src="firstimage.png" alt="" />
         </div>
 
-        <div style={{ display: "flex", width: "80%", margin: "auto" }}>
-          <HStack spacing='50px' mt={10}>
+        <div  className={styles.buttondiv}>
+          <HStack  spacing='50px' mt={10}  >
             <Text fontSize='2xl'> Shop New Arrivals</Text>
 
            <Link to="/women">
