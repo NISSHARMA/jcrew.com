@@ -63,3 +63,36 @@
     font-weight: bold
 
 }
+.buttondiv{
+    grid-template-columns: repeat(4,1fr);
+    width: "80%";
+     margin: "auto"
+}
+
+@media screen and (min-width:775px) and (max-width:1000px) {
+    #FooterSection {
+        position: relative;
+        top: 2500px;
+    }
+
+    #FooterSection>div {
+        width: 90%;
+        transition: .6s;
+
+    }
+}
+
+@media screen and (max-width:775px) {
+    .buttondiv{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+
+
+@media screen and (max-width:774px) {
+    .buttondiv{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+}

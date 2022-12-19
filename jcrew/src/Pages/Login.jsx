@@ -1,4 +1,5 @@
-import { useState } from 'react';
+import { useState,useContext } from 'react';
+
 import {
     Button,
     Checkbox,
@@ -24,6 +25,7 @@ const InitialUser = {
 
 export default function Login() {
 
+    
     const[logindata,setLogindata]=useState(InitialUser)  
     
     function handleLogin(e){
@@ -58,15 +60,18 @@ export default function Login() {
                          name="email"
                          value={email}
                          onChange={handleLogin}
+                         required
                         
                         />
                     </FormControl>
                     <FormControl id="password">
                         <FormLabel>Password</FormLabel>
                         <Input type="password" 
+                        className="form-control"
                          name="password"
                          value={password}
                          onChange={handleLogin}
+                         required
                         />
                     </FormControl>
                     <Stack spacing={6}>

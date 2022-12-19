@@ -1,4 +1,5 @@
-import { useEffect,useState } from "react"
+import { useEffect,useState,useContext  } from "react"
+
 import {
     Flex,
     Box,
@@ -26,7 +27,6 @@ const InitialUser = {
 function SignUp() {
 
 
-
    const[signupdata,setSignupdata]=useState(InitialUser)       
 
     async function handlesignupsubmit(e){
@@ -46,6 +46,7 @@ function SignUp() {
     function handlesignup(e){
         setSignupdata({ ...signupdata, [e.target.name]: e.target.value });
         console.log(signupdata)
+        window.location.href = '/'
     }
     const navigate1 = useNavigate();
     function navigate(){
@@ -79,13 +80,13 @@ function SignUp() {
               <Box>
                 <FormControl id="firstName" isRequired>
                   <FormLabel>First Name</FormLabel>
-                  <Input type="text" />
+                  <Input type="text" className="form-control"  required/>
                 </FormControl>
               </Box>
               <Box>
                 <FormControl id="lastName">
                   <FormLabel>Last Name</FormLabel>
-                  <Input type="text" />
+                  <Input type="text" required />
                 </FormControl>
               </Box>
             </HStack>
@@ -95,6 +96,7 @@ function SignUp() {
               name="email"
               value={email}
               onChange={handlesignup}
+              required
               />
             </FormControl>
             <FormControl id="password" isRequired>
@@ -104,6 +106,7 @@ function SignUp() {
                  name="password"
                  value={password}
                  onChange={handlesignup}
+                 required
                 />
                 <InputRightElement h={'full'}>
                   <Button
